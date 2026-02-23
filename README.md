@@ -5,3 +5,16 @@
 - lister des contacts
 
 # Affichage via CMD
+
+# architecture du projet avec venv
+en utilisant list dict 
+models/  contient les données (ex: utilisateur)
+services/ contient la logique (ex: ajouter utilisateur)
+tests/ contient les tests automatiques
+main.py (point d’entrée du programme)
+
+# lancer le test
+python -m unittest -v
+
+# lancer l'app 
+main.py
