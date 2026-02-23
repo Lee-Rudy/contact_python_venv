@@ -21,3 +21,5 @@ main.py
 
 cd git_contact
 python -m app.tests.test_contact_service
+
+python -m unittest tests.test_contact_service -v
