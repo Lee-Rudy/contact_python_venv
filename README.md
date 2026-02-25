@@ -19,7 +19,10 @@ python -m unittest -v
 # lancer l'app 
 main.py
 
-# lancer les tests
+cd git_contact
+python -m app.tests.test_contact_service
+
 python -m unittest tests.test_contact_service -v
 
-# requierments.txt
+# créer le fichier "requirements.txt"
+pip freeze > requirements.txt
