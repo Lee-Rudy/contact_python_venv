@@ -19,7 +19,7 @@ python -m unittest -v
 # lancer l'app 
 main.py
 
-cd git_contact
-python -m app.tests.test_contact_service
-
+# lancer les tests
 python -m unittest tests.test_contact_service -v
+
+# requierments.txt
