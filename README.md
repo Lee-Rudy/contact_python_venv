@@ -17,7 +17,7 @@ main.py (point d’entrée du programme)
 python -m unittest -v
 
 # lancer l'app 
-main.py
+python main.py
 
 cd git_contact
 python -m app.tests.test_contact_service
